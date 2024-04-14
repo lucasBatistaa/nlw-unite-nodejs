@@ -22,5 +22,7 @@ Cabeçalhos
 
 Banco de dados
 - Opções: Driver nativo, Query Builders e ORMs
-- Prisma
+- Prisma (ORM)
     - npx prisma init --datasource-provider SQLite
+
+ZOD - validações
