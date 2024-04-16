@@ -3,7 +3,7 @@ Content-Type: application/json
 
 
 {
-    "title": "Novo evento 2",
+    "title": 2,
     "details": "Evento de programação",
     "maximumAttendees": 1
 }
@@ -24,7 +24,7 @@ Content-Type: application/json
 GET http://localhost:3333/events/e65f69a3-cf0a-4f02-9245-7e15325d2697
 
 ###
-GET http://localhost:3333/attendees/4/badge
+GET http://localhost:3333/attendees/6546/badge
 
 ###
 GET http://localhost:3333/attendees/4/check-in
