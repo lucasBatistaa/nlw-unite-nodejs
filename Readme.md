@@ -14,11 +14,11 @@
     <h1>Rotas da API</h1>
     <p>
         check-in: Realiza o check-in, a chegada do participante no evento.<br>
-        create-event: Realiza a criação do evento, com base nas informações enviadas (título, descrição e total de participantes)
-        get-attendee-badge:
-        get-event-attendees:
-        get-event:
-        register-for-event:
+        create-event: Realiza a criação do evento, com base nas informações enviadas (título, descrição e total de participantes).<br>
+        get-attendee-badge: retorna as informações de um participante em específico.<br>
+        get-event-attendees: Retornar as informações dos participantes do evento.<br>
+        get-event: Retorna as informações do evento.<br>
+        register-for-event: Registar participante no evento.<br>
     </p>
 
     
