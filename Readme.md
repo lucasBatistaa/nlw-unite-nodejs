@@ -7,7 +7,7 @@ Projeto desenvolvido durante o NLW Unite, da Rocketseat. Criação da API para o
 ### Rotas da API
 - **check-in:** Realiza o check-in, registrando a chegada do participante no evento.
 - **create-event:** Cria um evento com base nas informações fornecidas, como título, descrição e número total de participantes.
-- **get-attendee-badge:** Retorna as informações de um participante específico, incluindo seu distintivo.
+- **get-attendee-badge:** Retorna as informações de um participante específico.
 - **get-event-attendees:** Retorna as informações dos participantes do evento.
 - **get-event:** Retorna as informações do evento.
 - **register-for-event:** Registra um participante para o evento.
