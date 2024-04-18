@@ -1,25 +1,22 @@
+### Tecnologias Utilizadas
+![Node.js](https://skillicons.dev/icons?i=nodejs) ![TypeScript](https://skillicons.dev/icons?i=ts) ![Prisma](https://skillicons.dev/icons?i=prisma)
 
-<h1>Tecnologias</h1>
-<p align="center">
-    <img src="https://skillicons.dev/icons?i=nodejs,ts,prisma" />
-</p>
+### Back-end da aplicação Pass.in
+Projeto desenvolvido durante o NLW Unite, da Rocketseat. Criação da API para o back-end da aplicação Pass.in, que gerencia o check-in de participantes em eventos.
 
-<div>
-    <h1>Back-end da aplicação Pass.in</h1>
-    <p>Projeto desenvolvido durante o NLW Unite, da Rocketseat</p>
-    <p>Criação da API para o back-end da aplicação Pass.in, no qual realiza o check-in de participantes em eventos.</p>
-</div>
+### Rotas da API
+- **check-in:** Realiza o check-in, registrando a chegada do participante no evento.
+- **create-event:** Cria um evento com base nas informações fornecidas, como título, descrição e número total de participantes.
+- **get-attendee-badge:** Retorna as informações de um participante específico, incluindo seu distintivo.
+- **get-event-attendees:** Retorna as informações dos participantes do evento.
+- **get-event:** Retorna as informações do evento.
+- **register-for-event:** Registra um participante para o evento.
 
-<div>
-    <h1>Rotas da API</h1>
-    <p>
-        check-in: Realiza o check-in, a chegada do participante no evento.<br>
-        create-event: Realiza a criação do evento, com base nas informações enviadas (título, descrição e total de participantes).<br>
-        get-attendee-badge: retorna as informações de um participante em específico.<br>
-        get-event-attendees: Retornar as informações dos participantes do evento.<br>
-        get-event: Retorna as informações do evento.<br>
-        register-for-event: Registar participante no evento.<br>
-    </p>
+![image](https://github.com/lucasBatistaa/nlw-unite-nodejs/assets/86435351/8da2e8ae-8796-4fbd-8817-3c6a4832f14b)
 
-    
-</div>
+### Principais aprendizados: 
+
+- Utilização do **Fastify**, framework utilizado para o desenvolvimento em NodeJS que simplifica e gera eficiência no desenvolvimento de APIs.
+- Utilização do **Prisma**, ORM (Object-Relational Mapping) que simplifica o desenvolvimento e interação com banco de dados, a partir de uma linguagem semelhante ao TypeScript.
+- Utilização do **Swagger**, ferramenta que gera automaticamente uma documentação visual do back-end da aplicação.
+- Utilização do **ZOD**, biblioteca de validação de dados.
